@@ -13,17 +13,17 @@ def SobreElPrograma():
 
 def GestioAjuntaments():
         import subprocess
-        subprocess.Popen('C:\Python24\python.exe pyGestioAjuntaments.py')
+        subprocess.Popen('C:\Python24\python.exe ./programari/pyGestioAjuntaments.py')
         root.destroy()
 	
 def InsertarIncidencia():
 	import subprocess
-        subprocess.Popen('C:\Python24\python.exe pyPOW.py')
+        subprocess.Popen('C:\Python24\python.exe ./programari/pyPOW.py')
         root.destroy()
 
 def ResponsablesWeb():
 	import subprocess
-        subprocess.Popen('C:\Python24\python.exe pyResponsablesWeb.py')
+        subprocess.Popen('C:\Python24\python.exe ./programari/pyResponsablesWeb.py')
         root.destroy()
 
 def ObrimWebSEpam():
