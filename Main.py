@@ -8,9 +8,35 @@ root.geometry('600x560+350+150')
 root.title('Base de dades - SEPAM')
 root.resizable(0,0)
 
-import sys
-sys.path.append("c:\\Documents and Settings\jcatala\Mis documentos\GitHub\pyApps\programari")
-import Funcions
+
+def SobreElPrograma():
+    tkMessageBox.showinfo("Sobre el programa", "Aquest programa serveix als responsables tecnics del SEPAM - Diputacio de Castello.\n\nPer qualsevol incidencia escriviu a grupotic@dipcas.es")
+
+def GestioAjuntaments():
+        import subprocess
+        subprocess.Popen('C:\Python24\python.exe ./pyGestioAjuntaments.py')
+        root.destroy()
+	
+def InsertarIncidencia():
+	import subprocess
+        subprocess.Popen('C:\Python24\python.exe ./pyPOW.py')
+        root.destroy()
+
+def ResponsablesWeb():
+	import subprocess
+        subprocess.Popen('C:\Python24\python.exe ./pyResponsablesWeb.py')
+        root.destroy()
+
+def ObrimWebSEpam():
+	import subprocess
+        subprocess.Popen('explorer http://sepam.dipcas.es')
+        root.destroy()
+        
+	
+def Eixir():
+    #i eixim del programa.
+    root.destroy()
+    
 
 #######################################################################
 # PANTALLA1: Pantalla principal
