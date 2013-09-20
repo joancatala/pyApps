@@ -3,7 +3,8 @@ pyApps
 
 Les pyApps són unes aplicacionetes de gestió al SEPAM amb Python i en modo GUI amb Tkinter per a facilitar algunes tasques rutinaries que tenim a la feina.
 
-![My image](https://github.com/joancatala/pyApps/blob/master/imatges/captura-pantalla.png)
+![ScreenShot](https://github.com/joancatala/pyApps/blob/master/imatges/captura-pantalla.png)
+
 
 
 Contacte
