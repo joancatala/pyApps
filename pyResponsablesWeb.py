@@ -262,6 +262,7 @@ boto1.grid(row=0, column=0, sticky=W, pady=10, padx=5)
 boto2 = Button(frame_dreta4, text='Guardar canvis', command=GuardarCanvis)
 boto2.grid(row=0, column=1, sticky=W, pady=10)
 
+InfoResponsable()
 
 #Endavant!
 root.mainloop()

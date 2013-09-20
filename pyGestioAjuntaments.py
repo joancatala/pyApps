@@ -1101,6 +1101,8 @@ boto2 = Button(frame_botons, text="Guardar canvis", command=GuardarCambios)
 boto1.grid(row=1, column=1, sticky=E, pady=10)
 boto2.grid(row=1, column=2, padx=5, sticky=E, pady=10)
 
+MuestraDatos()
+
 #######################################################################
 # Endavant!
 #######################################################################
