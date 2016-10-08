@@ -9,4 +9,4 @@ Les pyApps són unes aplicacionetes de gestió al SEPAM amb Python i en modo GUI
 
 Contacte
 ======
-Contacta'm des del compte de GitHub, el meu twitter @joancatal o per correu jcatala-en-dipcas.es
+Contacta'm des del compte de GitHub, el meu twitter @joancatala o per correu jcatala-en-riseup.net. Sigues feliç. Comparteix codi.
